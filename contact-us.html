@@ -1,128 +1,211 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AB Pilot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AB Pilot</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body class="dark:bg-darkBlue bg-gray-100 text-gray-900 dark:text-white font-poppins">
-  <header class="container mx-auto flex items-center justify-between h-24 md:h-32  px-2">
-    <!-- dynamic logo -->
-    <div class="flex items-center space-x-4">
-      <a href="/"><img src="images/AB_Pilot_Dark.png" class="w-60 hidden dark:block" alt=""></a>
-      <a href="/"><img src="images/AB_Pilot_Light.png" class="w-60 dark:hidden block" alt=""></a>
-    </div>
-    <!-- Menu -->
-    <div class="flex items-center justify-center space-x-4 md:space-x-10">
-      <a href="/about-us.html" class="hover:text-accentCyan hidden md:block duration-100">About Us</a>
-      <a href="/features.html" class="hover:text-accentCyan hidden md:block duration-100">Features</a>
-      <a href="#API"
-        class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white dark:hover:text-accentCyan hover:bg-gray-100 dark:hover:bg-darkBlue px-3 py-1.5 rounded-xl duration-100">Get
-        API</a>
-
-    </div>
-  </header>
-  <!-- Hero Section -->
-  <section id="hero">
-    <!-- Hero Container -->
-    <div class="container mx-auto px-6 text-center md:pt-10 pb-32">
-      <div class="flex flex-col-reverse md:flex-row">
-        <div class="w-full flex flex-col md:w-1/2 md:mt-14 space-y-12">
-          <h1
-            class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100  max-w-md">A
-            Simple Split Testing Tool</h1>
-          <p class="text-center md:text-left max-w-sm text-gray-400 text-xl">A simple tool can be used by content
-            creators, developers to make their split testing easy. </p>
-          <a href="#GetStarted"
-            class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white dark:hover:text-accentCyan hover:bg-gray-100 dark:hover:bg-darkBlue hover:shadow-none max-w-xs px-10 py-4 shadow-md shadow-black rounded-xl duration-100">Get
-            Started</a>
-        </div>
-        <div class="w-full md:w-1/2">
-          <img src="images/4113-removebg-preview.png" class="mx-auto" alt="">
+  <body
+    class="dark:bg-darkBlue bg-gray-100 text-gray-900 dark:text-white font-poppins"
+  >
+    <header
+      class="container mx-auto flex items-center justify-between h-24 md:h-32 px-2"
+    >
+      <!-- dynamic logo -->
+      <div class="flex items-center space-x-4">
+        <a href="/"
+          ><img
+            src="images/AB_Pilot_Dark.png"
+            class="w-60 hidden dark:block"
+            alt=""
+        /></a>
+        <a href="/"
+          ><img
+            src="images/AB_Pilot_Light.png"
+            class="w-60 dark:hidden block"
+            alt=""
+        /></a>
+      </div>
+      <!-- Menu -->
+      <div class="flex items-center justify-center space-x-4 md:space-x-10">
+        <a
+          href="/about-us.html"
+          class="hover:text-accentCyan hidden md:block duration-100"
+          >About Us</a
+        >
+        <a
+          href="/features.html"
+          class="hover:text-accentCyan hidden md:block duration-100"
+          >Features</a
+        >
+        <a
+          href="#API"
+          class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white hover:text-accentCyan dark:hover:text-accentCyan hover:bg-gray-100 dark:hover:bg-darkBlue px-3 py-1.5 rounded-xl duration-100"
+          >Get API</a
+        >
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Hero Container -->
+      <div class="container mx-auto px-6 text-center md:pt-10 pb-32">
+        <div class="flex flex-col-reverse md:flex-row">
+          <div class="w-full flex flex-col md:w-1/2 md:mt-14 space-y-12">
+            <h1
+              class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100 max-w-md"
+            >
+              A Simple Split Testing Tool
+            </h1>
+            <p class="text-center md:text-left max-w-sm text-gray-400 text-xl">
+              A simple tool can be used by content creators, developers to make
+              their split testing easy.
+            </p>
+            <a
+              href="#GetStarted"
+              class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white hover:text-accentCyan dark:hover:text-accentCyan hover:bg-gray-100 dark:hover:bg-darkBlue hover:shadow-none max-w-xs px-10 py-4 shadow-md shadow-black rounded-xl duration-100"
+              >Get Started</a
+            >
+          </div>
+          <div class="w-full md:w-1/2">
+            <img
+              src="images/4113-removebg-preview.png"
+              class="mx-auto"
+              alt=""
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Features Section -->
-  <section id="Features" class=" pt-12 bg-gray-50 dark:bg-darkBlue1 dark:text-white">
-    <!-- features container -->
-    <div class="container mx-auto px-6 md:space-y-20 pb-32">
-      <div class="flex items-center justify-center">
-        <div class="text-center text-4xl md:text-6xl font-semibold p-2">Contact Us
+    <!-- Features Section -->
+    <section
+      id="Features"
+      class="pt-12 bg-gray-50 dark:bg-darkBlue1 dark:text-white"
+    >
+      <!-- features container -->
+      <div class="container mx-auto px-6 md:space-y-20 pb-32">
+        <div class="flex items-center justify-center">
+          <div class="text-center text-4xl md:text-6xl font-semibold p-2">
+            Contact Us
+          </div>
+        </div>
+        <form
+          class="items-center justify-center space-y-4 space-x-0 md:space-x-4 md:space-y-0"
+          action="submit"
+        >
+          <row>
+            <div class="col-6 text-center">
+              <input
+                class="p-2 w-96 max-w-md rounded-md outline-none text-gray-800 placeholder:text-gray-400"
+                type="text"
+                placeholder="Enter your First Name"
+                id=""
+              />
+            </div>
+          </row>
+          <row>
+            <div class="col-12 text-center">
+              <input
+                class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400"
+                type="text"
+                placeholder="Enter your Last Name"
+                id=""
+              />
+            </div>
+          </row>
+          <row>
+            <div class="col-12 text-center">
+              <input
+                class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400"
+                type="text"
+                placeholder="Enter your Email address"
+                id=""
+              />
+            </div>
+          </row>
+          <row>
+            <div class="col-12 text-center">
+              <textarea
+                class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400"
+                type="text"
+                placeholder="Enter your Message"
+                id=""
+              ></textarea>
+            </div>
+          </row>
+          <row>
+            <div class="col-12 text-center">
+              <button
+                class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white hover:text-accentCyan dark:hover:text-accentCyan hover:bg-gray-100 dark:hover:bg-darkBlue px-8 py-2 shadow-md shadow-black rounded-xl duration-100"
+              >
+                Submit
+              </button>
+            </div>
+          </row>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-300 dark:bg-darkBlue2">
+      <div class="container mx-auto">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between py-8 md:py-14 space-y-10 md:space-y-0"
+        >
+          <div
+            class="logo flex flex-col md:flex-row text-center items-center justify-center space-x-0 md:space-x-16"
+          >
+            <a href="#"
+              ><img
+                src="images/AB_Pilot_Dark.png"
+                class="w-40 hidden dark:block"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="images/AB_Pilot_Light.png"
+                class="w-40 dark:hidden block"
+                alt=""
+            /></a>
+            <div
+              class="flex flex-col md:flex-row space-x-0 md:space-x-16 text-gray-400 text-xl tracking-wide"
+            >
+              <a class="hover:text-accentCyan duration-75" href="/features.html"
+                >Features</a
+              >
+              <a
+                class="hover:text-accentCyan duration-75"
+                href="/contact-us.html"
+                >Contact us</a
+              >
+            </div>
+          </div>
+
+          <!-- Social Media -->
+          <div class="flex items-center justify-center space-x-8 text-2xl">
+            <i class="fa-brands fa-instagram hover:text-accentCyan"></i>
+            <i class="fa-brands fa-facebook hover:text-accentCyan"></i>
+            <i class="fa-brands fa-twitter hover:text-accentCyan"></i>
+            <i class="fa-brands fa-linkedin hover:text-accentCyan"></i>
+          </div>
         </div>
       </div>
-      <form class="items-center justify-center space-y-4 space-x-0 md:space-x-4 md:space-y-0" action="submit">
-        <row>
-          <div class="col-6 text-center">
-            <input class="p-2 w-96 max-w-md rounded-md outline-none text-gray-800 placeholder:text-gray-400" type="text"
-              placeholder="Enter your First Name" id="">
-          </div>
-        </row>
-        <row>
-          <div class="col-12 text-center">
-            <input class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400" type="text"
-              placeholder="Enter your Last Name" id="">
-          </div>
-        </row>
-        <row>
-          <div class="col-12 text-center">
-            <input class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400" type="text"
-              placeholder="Enter your Email address" id="">
-          </div>
-        </row>
-        <row>
-          <div class="col-12 text-center">
-            <textarea class="p-2 w-96 rounded-md outline-none text-gray-800 placeholder:text-gray-400" type="text"
-              placeholder="Enter your Message" id=""></textarea>
-          </div>
-        </row>
-        <row>
-          <div class="col-12 text-center">
-            <button
-          class="bg-accentCyan border-2 border-accentCyan hover:border-2 hover:border-accentCyan text-white dark:hover:text-accentCyan 
-          hover:bg-gray-100 dark:hover:bg-darkBlue px-8 py-2 shadow-md shadow-black rounded-xl duration-100">Submit</button>
-          </div>
-        </row>  
-    </form>
-    </div>
-  </section>
-  <!-- Footer -->
-  <footer class="bg-gray-300 dark:bg-darkBlue2">
-    <div class="container mx-auto">
-      <div class="flex flex-col md:flex-row items-center justify-between py-8 md:py-14 space-y-10 md:space-y-0">
-        <div class="logo flex flex-col md:flex-row text-center items-center justify-center space-x-0 md:space-x-16">
-          <a href="#"><img src="images/AB_Pilot_Dark.png" class="w-40 hidden dark:block" alt=""></a>
-          <a href="#"><img src="images/AB_Pilot_Light.png" class="w-40 dark:hidden block" alt=""></a>
-          <div class="flex flex-col md:flex-row space-x-0 md:space-x-16 text-gray-400 text-xl tracking-wide">
-            <a class="hover:text-accentCyan duration-75" href="/features.html">Features</a>
-            <a class="hover:text-accentCyan duration-75" href="/contact-us.html">Contact us</a>
-          </div>
-        </div>
-
-        <!-- Social Media -->
-        <div class="flex items-center justify-center space-x-8 text-2xl ">
-          <i class="fa-brands fa-instagram hover:text-accentCyan"></i>
-          <i class="fa-brands fa-facebook hover:text-accentCyan"></i>
-          <i class="fa-brands fa-twitter hover:text-accentCyan"></i>
-          <i class="fa-brands fa-linkedin hover:text-accentCyan"></i>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
