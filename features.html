@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="dark:bg-darkBlue bg-gray-100 text-gray-900 dark:text-white font-poppins">
@@ -60,14 +61,14 @@
     <section id="Features" class=" pt-12 bg-gray-50 dark:bg-darkBlue1 dark:text-white">
         <div class="container mx-auto px-6 text-center md:pt-10 pb-32">
             <div class="flex flex-col-reverse md:flex-row">
-                <div class="w-full md:w-1/2">
+                <div data-aos="fade-up-right" class="w-full md:w-1/2">
                     <img src="images/techImg.png" class="mx-auto" alt="">
                 </div>
                 <div class="w-full flex flex-col md:w-1/2 space-y-12">
                     <h1
-                        class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100  max-w-md">
+                        data-aos="fade-down" class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100  max-w-md">
                         Access your file from anywhere</h1>
-                    <p class="text-center md:text-left max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    <p data-aos="fade-down" class="text-center md:text-left max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Molestiae sint ad modi veniam fuga natus atque perferendis ea totam iste? Rem, repellat. Itaque consequatur totam officia, 
                         nostrum iusto a ducimus.</p>
                 </div>
@@ -80,13 +81,13 @@
             <div class="flex flex-col-reverse md:flex-row">
                 <div class="w-full flex items-end flex-col md:w-1/2 space-y-12">
                     <h1
-                        class="text-4xl md:text-6xl font-bold text-center md:text-right text-gray-900 dark:text-gray-100  max-w-md">
+                        data-aos="fade-down" class="text-4xl md:text-6xl font-bold text-center md:text-right text-gray-900 dark:text-gray-100  max-w-md">
                         Access your file from anywhere</h1>
-                    <p class="text-center md:text-right max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    <p data-aos="fade-down" class="text-center md:text-right max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Molestiae sint ad modi veniam fuga natus atque perferendis ea totam iste? Rem, repellat. Itaque consequatur totam officia, 
                         nostrum iusto a ducimus.</p>
                 </div>
-                <div class="w-full md:w-1/2">
+                <div data-aos="fade-up-left" class="w-full md:w-1/2">
                     <img src="images/techImg.png" class="mx-auto" alt="">
                 </div>
             </div>
@@ -96,14 +97,14 @@
     <section id="Features" class=" pt-12 bg-gray-50 dark:bg-darkBlue1 dark:text-white">
         <div class="container mx-auto px-6 text-center md:pt-10 pb-32">
             <div class="flex flex-col-reverse md:flex-row">
-                <div class="w-full md:w-1/2">
+                <div data-aos="fade-up-right" class="w-full md:w-1/2">
                     <img src="images/techImg.png" class="mx-auto" alt="">
                 </div>
                 <div class="w-full flex flex-col md:w-1/2 space-y-12">
                     <h1
-                        class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100  max-w-md">
+                        data-aos="fade-down" class="text-4xl md:text-6xl font-bold text-center md:text-left text-gray-900 dark:text-gray-100  max-w-md">
                         Access your file from anywhere</h1>
-                    <p class="text-center md:text-left max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    <p data-aos="fade-down" class="text-center md:text-left max-w-sm text-gray-400 text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Molestiae sint ad modi veniam fuga natus atque perferendis ea totam iste? Rem, repellat. Itaque consequatur totam officia, 
                         nostrum iusto a ducimus.</p>
                 </div>
@@ -115,7 +116,7 @@
     <section id="contact">
         <!-- Container -->
         <div class="container mx-auto">
-            <div class="flex flex-col items-center justify-center space-y-8 md:space-y-10 my-20 lin">
+            <div data-aos="zoom-in" class="flex flex-col items-center justify-center space-y-8 md:space-y-10 my-20 lin">
                 <h3 class="text-3xl md:text-5xl font-semibold px-4 max-w-sm md:max-w-5xl tracking-wide text-center">Stay
                     up-to-date with what we're doing</h3>
                 <form
@@ -154,6 +155,10 @@
         </div>
       </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

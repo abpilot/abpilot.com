@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="dark:bg-darkBlue bg-gray-100 text-gray-900 dark:text-white font-poppins">
@@ -71,18 +72,18 @@
     <!-- features container -->
     <div class="container flex flex-col mx-auto px-6 md:space-y-20 pb-32">
       <div class="flex items-center justify-center">
-        <div class="text-center text-4xl md:text-6xl font-semibold p-2">The Devs Behind A/B Pilot
+        <div data-aos="fade-down" class="text-center text-4xl md:text-6xl font-semibold p-2">The Devs Behind A/B Pilot
         </div>
       </div>
       <!-- First row -->
       <div class="flex flex-col justify-center space-y-24 text-center md:flex-row md:space-y-0">
         <!-- Features Tab-->
         <div class="flex flex-col items-center space-y-2 md:w-8/12">
-          <div class="flex items-center justify-center h-24 mb-6">
+          <div data-aos="fade-down" class="flex items-center justify-center h-24 mb-6">
             <img src="images/userImg.png" style="height:100px; width:100px; border-radius: 100%;" alt="" />
           </div>
-          <h3 class="text-xl font-bold">Lorem ipsum</h3>
-          <p class="max-w-2xl">
+          <h3 data-aos="fade-down" class="text-xl font-bold">Lorem ipsum</h3>
+          <p data-aos="fade-down" class="max-w-2xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam eveniet qui dolorum libero modi
             reiciendis
             repellat quasi molestiae quis autem officiis ad ut dolore placeat, voluptate assumenda quia, aspernatur
@@ -93,11 +94,11 @@
       <div class="flex flex-col justify-center space-y-24 text-center md:flex-row md:space-y-0">
         <!-- Item 2 -->
         <div class="flex flex-col items-center space-y-2 md:w-8/12">
-          <div class="flex items-center justify-center h-24 mb-6">
+          <div data-aos="fade-down" class="flex items-center justify-center h-24 mb-6">
             <img src="images/userImg.png" style="height:100px; width:100px; border-radius: 100%;" />
           </div>
-          <h3 class="text-xl font-bold">Lorem ipsum</h3>
-          <p class="max-w-2xl">
+          <h3 data-aos="fade-down" class="text-xl font-bold">Lorem ipsum</h3>
+          <p data-aos="fade-down" class="max-w-2xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda quibusdam velit vitae quidem? Hic fugit
             eius
             rerum nihil, tempore voluptatum, error ut laboriosam neque iusto consequatur minima ad, obcaecati
@@ -109,11 +110,11 @@
       <div class="flex flex-col justify-center space-y-24 mt-24 text-center md:flex-row md:space-y-0">
         <!-- Features Tab-->
         <div class="flex flex-col items-center space-y-2 md:w-8/12">
-          <div class="flex items-center justify-center h-24 mb-6">
+          <div data-aos="fade-down" class="flex items-center justify-center h-24 mb-6">
             <img src="images/userImg.png" style="height:100px; width:100px; border-radius: 100%;" alt="" />
           </div>
-          <h3 class="text-xl font-bold">Lorem ipsum</h3>
-          <p class="max-w-2xl">
+          <h3 data-aos="fade-down" class="text-xl font-bold">Lorem ipsum</h3>
+          <p data-aos="fade-down" class="max-w-2xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae eum quod, architecto accusamus
             recusandae
             nostrum delectus doloremque aperiam perferendis eveniet dolorum ea voluptate tenetur dicta. Numquam maiores
@@ -124,11 +125,11 @@
       <div class="flex flex-col justify-center space-y-24 text-center md:flex-row md:space-y-0">
         <!-- Item 2 -->
         <div class="flex flex-col items-center space-y-2 md:w-8/12">
-          <div class="flex items-center justify-center h-24 mb-6">
+          <div data-aos="fade-down" class="flex items-center justify-center h-24 mb-6">
             <img src="images/userImg.png" style="height:100px; width:100px; border-radius: 100%;" alt="" />
           </div>
-          <h3 class="text-xl font-bold">Lorem ipsum</h3>
-          <p class="max-w-2xl">
+          <h3 data-aos="fade-down" class="text-xl font-bold">Lorem ipsum</h3>
+          <p data-aos="fade-down" class="max-w-2xl">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error soluta itaque debitis consequuntur.
             Enim ab quis quo error
             iste placeat voluptatum! Libero dolore sequi placeat repudiandae assumenda qui suscipit?
@@ -141,7 +142,7 @@
   <section id="contact">
     <!-- Container -->
     <div class="container mx-auto">
-      <div class="flex flex-col items-center justify-center space-y-8 md:space-y-10 my-20 lin">
+      <div data-aos="zoom-in" class="flex flex-col items-center justify-center space-y-8 md:space-y-10 my-20 lin">
         <h3 class="text-3xl md:text-5xl font-semibold px-4 max-w-sm md:max-w-5xl tracking-wide text-center">Stay
           up-to-date with what we're doing</h3>
         <form
@@ -179,6 +180,10 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
